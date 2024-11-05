@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Músicas</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="imagem/icone1.png" type="image/png">
+        <!--api do google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Noto+Sans+JP:wght@100..900&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+        <!--meu CSS-->
+        
+        <style>
+            #titulo
+            {
+                font-family: "Noto Sans JP", serif;
+                font-optical-sizing: auto;
+                font-weight: bold;
+                font-style: normal;
+                text-align: center;
+                font-size: 350%;
+                color: rgb(226, 22, 8);                
+            }
+            img
+            {
+                width: 100px;
+                height: 100px;
+            }
+            table 
+            {
+                margin-left: auto;
+                margin-right: auto;
+                width: 40%;
+            }
+            td 
+            {
+              text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <!--título-->
+        <p id="titulo">Seu player perfeito de músicas.</p>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <img  src="imagem/Post-Malone.jpg" alt="Cantor  Post Malone">
+
+                    </td>
+                    <td>
+                        <a href="https://pt.wikipedia.org/wiki/Post_Malone" target="_blank">Post Malone - Circles</a>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="musicas/Post Malone_Circles.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <img  src="imagem/harry_styles.jpg" alt="Cantor Harry Styles">
+
+                    </td>
+                    <td>
+                        <a href="https://pt.wikipedia.org/wiki/Harry_Styles" target="_blank">Harry Styles - Late Night Talking</a>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="musicas/Late Night Talking.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <img  src="imagem/doja-cat.jpg" alt="Cantora Doja Cat">
+
+                    </td>
+                    <td>
+                        <a href="https://pt.wikipedia.org/wiki/Doja_Cat" target="_blank">Doja Cat - Kiss Me More</a>
+                    </td>
+                    <td>
+                        <audio controls>
+                            <source src="musicas/Kiss Me More_Doja Cat.mp3" type="audio/mp3">
+                        </audio>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
